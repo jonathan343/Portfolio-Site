@@ -1,0 +1,83 @@
+.navbar-toggler:focus {
+    outline: none !important;
+}
+
+.navbar-header.col {
+    padding: 0 !important;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.2);
+    padding-right: 16px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .1);
+}
+
+
+.navbar ul.nav li a:hover,
+.navbar ul.nav li a:focus {
+    color: white !important;
+}
+
+.navbar ul.nav li.active a,
+.navbar ul.nav li.active a:hover,
+.navbar ul.nav li.active a:focus {
+    color: rgb(145, 145, 145) !important;
+    background: transparent !important;
+}
+
+.navbar .nav-link {
+    font-size: 18px;
+    padding: 0;
+}
+
+.navbar .nav-item.open>a {
+    background: none !important;
+}
+
+
+
+
+
+/* Cool Link */
+.cool-link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+
+
+/* Home Page */
+ #photo {
+    background: url("images/mountains.jpg") no-repeat center center/cover;
+    padding-top: 15%;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    height: 100vh;
+    
+} 
+
+#photo img{
+    width: 50%;
+}
+
+#homeTxt{
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    font-size: 1.1rem;
+    margin-top: -3%;
+}
+
