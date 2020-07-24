@@ -1,3 +1,50 @@
+:root{
+    --primary-color: #29487D;
+    --secondary-color: #1DA1F2;
+    --text-color: #ffffff;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.secondary-text{
+    color: var(--secondary-color);
+  }
+
+.op-card{
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.op-card-small{
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.parallax-home {
+    /* The image used */
+    background-image: url("images/mountains.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* Navigation Bar */
 .navbar-toggler:focus {
     outline: none !important;
 }
@@ -7,7 +54,7 @@
 }
 
 .navbar {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.4);
     padding-right: 16px;
     box-shadow: 0 0 4px rgba(0, 0, 0, .1);
 }
@@ -36,8 +83,6 @@
 
 
 
-
-
 /* Cool Link */
 .cool-link {
     display: inline-block;
@@ -63,7 +108,7 @@
 
 /* Home Page */
  #photo {
-    background: url("images/mountains.jpg") no-repeat center center/cover;
+    
     padding-top: 30vh;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
     height: 100vh;
@@ -78,7 +123,6 @@
 #homeTxt{
     font-weight: normal;
     letter-spacing: 0.2em;
-    font-size: 1.25vw;
     font-size:calc(5px + 0.8vw);
     margin-top: -3%;
 }
@@ -89,4 +133,123 @@
 #resumeBttn{
     text-decoration: none;
 }
+
+/* About Me */
+#aboutMe{
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  
+    background: linear-gradient(to left, #243B55, #141E30); 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#aboutMe p{
+    color: var(--text-color);
+    margin-bottom: 0;
+}
+
+#headShot{
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.24);
+    width: calc(150px + 10vw);
+    margin-bottom: 15px;
+}
+
+
+mark{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.skill-icon{
+    width: 30px;
+}
+
+/* Experience */
+
+#experience{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  
+    background: linear-gradient(to left, #243B55, #141E30); 
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 25;
+    padding-right: 25;
+}
+
+#experience h1{
+    padding-bottom: 15px;
+}
+
+.card-img {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+}
+
+/* On mouse-over, add a deeper shadow */
+.card-img:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  }
+
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+.card-img {
+    border-radius: 5px 5px 0 0;
+    max-width: 200px;
+}
+
+.img-fluid {
+    max-width: 300px;
+    height: auto;
+}
+.card{
+    max-width: 300px;
+    font-size:calc(10px + .3vh);
+}
+.container h4{
+    padding-top: 10px;
+}
+
+/* Projects */
+
+#projects{
+    
+    min-height: 50vh;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px){
+    #aboutMe{
+        padding: 100px;
+    }
+    #experience{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 90px;
+        padding-bottom: 75px;
+    }
+}
+
+@media (min-width: 992px) {
+    #aboutMe{
+        padding: 150px;
+    }
+    #experience{
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+}
+
 
