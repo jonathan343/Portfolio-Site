@@ -258,7 +258,7 @@ mark{
 
 @media only screen and (max-device-width: 1366px) {
     .parallax-home {
-        /* background-image: none; */
+        background-image: none;
         /* background-attachment: scroll; */
     }
   }

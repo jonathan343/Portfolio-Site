@@ -1,5 +1,4 @@
 // Closes the navigation after use or touch
-
 $(document).ready(function () {
     $(document).click(
         function (event) {
