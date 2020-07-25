@@ -108,7 +108,8 @@ body{
 
 /* Home Page */
  #photo {
-    
+    background-image: url("images/mountains.jpg")  no-repeat center
+    center/cover;
     padding-top: 30vh;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
     height: 100vh;
