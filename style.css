@@ -369,6 +369,9 @@ mark{
   .social-menu ul li:nth-child(2) a:hover {
     background-color: #0077B5;
   }
+  .social-menu ul li:nth-child(5) a:hover {
+    background-color: #FF0000;
+  }
 
   /* Projects */
 
