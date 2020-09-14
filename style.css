@@ -126,7 +126,7 @@ body{
     font-size:calc(5px + 0.8vw);
     margin-top: -3%;
 }
-.btn:hover, .btn:focus, .btn.active, .open>.dropdown-toggle.btn {
+.btn2:hover, .btn2:focus, .btn2.active, .open>.dropdown-toggle.btn2 {
     background-color: rgba(0, 0, 0,0.3);
 }
 
