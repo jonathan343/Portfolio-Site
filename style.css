@@ -10,6 +10,10 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  
+    background: linear-gradient(to left, #243B55, #141E30);
+    padding-bottom: 50px;
 }
 
 .secondary-text{
